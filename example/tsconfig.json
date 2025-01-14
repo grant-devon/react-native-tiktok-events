@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "react-native-tiktok-events": ["../src/index"],
+      "react-native-tiktok-events/*": ["../src/*"]
+    }
+  }
+}
